@@ -1,0 +1,23 @@
+
+.btn-nav{
+    outline: none !important;
+    border:  none !important;
+}
+.nav-item a:hover{
+    background-color: #fcd34d;
+}
+.fa-brands{
+    font-size: 20px;
+}
+.link{
+    color: royalblue;
+}
+.d-flex a{
+    text-decoration: none !important;
+    color: #334155;
+}
+.btn-center{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KINDO</title>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- custom style -->
+    <link rel="stylesheet" href="../css/layout.css">
+    <!-- fontawasome icons link -->
+    <script src="https://kit.fontawesome.com/7c2098714b.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./img/xmass log.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container-fluid bg-warning sticky-top" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid justify-content-around">
+                <h3 class="text-light">KINDO&#129323;</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="btn-nav"><i class="fa-solid fa-bars" style="color: white; font-size: 25px;"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-light active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="../404.html">About Us</a>
+                        </li>
+                    </ul>
+                    </li>
+
+                    </ul>
+                    <div class="d-flex" >
+                        <a href="https://twitter.com/rogasiani_" target="_blank"> <i class="fa-brands fa-x-twitter"></i></a> &nbsp;&nbsp;
+                         <a href="https://www.facebook.com/rogasian.gelas" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>&nbsp;&nbsp;
+                         <a href="https://www.instagram.com/rogasiangelasi/?next=%2F" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>&nbsp;&nbsp;
+                         <a href="https://github.com/mvungi113" target="_blank"><i class="fa-brands fa-square-github"></i></a>&nbsp;&nbsp;
+                     </div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+
+    <div class="container mt-4">
+        <div class="alert alert-danger" role="alert">
+            While KINDO&#129323; is still a work in progress, we believe in the power of community collaboration. Your
+            feedback and insights are invaluable as we fine-tune and enhance the project for its official launch
+            &#128640.
+           
+        </div>
+    </div>
+
+    <div class="container text-start">
+        <div class="card text-center">
+            <div class="card-header">
+                QGIS Tutorials and Tips
+            </div>
+            <div class="card-body text-start">
+                <h5 class="card-title">Add Google Maps to QGIS 3</h5>
+                <p>
+                    If you use <b>QGIS version 3</b>, you have the ability to add <b>Google Maps layers</b> to your map. The Google Maps layers are really <b>Title Map Services (TMS)</b>
+. The following is an example showing how to add Google Map to QGIS.                </p>
+<p>Once you open a project in <b>QGIS</b>, in the <b>Browser window</b> to the left, scroll down to <b>XYZ Tiles</b>.</p>
+  <img src="../img/add-map/add-map-1.PNG"  width="100%" alt="qgis-xyz">    
+<p>Right click on <b>XYZ Tiles</b> and choose New Connection.</p>     
+<img src="../img/add-map/add-map-2.PNG"  width="100%" alt="xyz-new-connection">
+<p>In the <b>XYZ Connection </b>window, enter a name, like Google Maps, and then enter the URL ==>  https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}. then set the Max Zoom level to 19.</p>
+<img src="../img/add-map/add-map-3.PNG"  width="100%" alt="Xyz-new connection field">
+
+<p>click the <b>OK button</b> and <b>Google Maps</b> is added to your <b>XYZ</b> list</p>.
+<img src="../img/add-map/add-map-4.PNG"  width="100%" alt="Map in xyz">
+
+<p>Now double click on <b>Google Maps</b> or <b>Drag & drop</b> it and you wi;; see it in your map area!</p>
+<img src="../img/add-map/add-map-6.PNG" width="100%" alt="The map is displayed">
+
+<p> More URL for Goole Maps</p>
+<ul style="list-style: none;">
+    <li><i class="fa-solid fa-arrow-right" style="color: #1c5bca;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>Google Maps:</b> <span class="link">https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}</span></li>
+    <li><i class="fa-solid fa-arrow-right" style="color: #1c5bca;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>Google Satellite: </b> <span class="link">http://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}</span></li>
+    <li><i class="fa-solid fa-arrow-right" style="color: #1c5bca;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>Google Satellite Hybrid:</b> <span class="link">https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}</span></li>
+    <li> <i class="fa-solid fa-arrow-right" style="color: #1c5bca;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>Google Roads:</b> <span class="link">https://mt1.google.com/vt/lyrs=h&x={x}&y={y}&z={z}</span></li>
+</ul>
+<div class="container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3j371uBKnPY?si=Inz0vc2Z7Zvv0l_e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<a href="./add_.csv_file_in_qgis_3.html" class="btn btn-primary">What next? &#128526;</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid mb-0  bg-light">
+        <div class="container ">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+    
+                    <span class="mb-3 mb-md-0 text-muted">
+                        <p> &copy;<i id="year"></i> KINDO&#129323;</p>
+    
+                        <script>
+                            // Get current date and time
+                            document.getElementById("year").innerHTML = new Date().getFullYear();
+                        </script>
+                </div>
+    
+                <div class="d-flex" >
+                    <a href="https://twitter.com/rogasiani_" target="_blank"> <i class="fa-brands fa-x-twitter"></i></a> &nbsp;&nbsp;
+                     <a href="https://www.facebook.com/rogasian.gelas" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>&nbsp;&nbsp;
+                     <a href="https://www.instagram.com/rogasiangelasi/?next=%2F" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>&nbsp;&nbsp;
+                     <a href="https://github.com/mvungi113" target="_blank"><i class="fa-brands fa-square-github"></i></a>&nbsp;&nbsp;
+                 </div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
