@@ -39,12 +39,16 @@
                     </li>
 
                     </ul>
-                    <div class="d-flex" >
-                        <a href="https://twitter.com/rogasiani_" target="_blank"> <i class="fa-brands fa-x-twitter"></i></a> &nbsp;&nbsp;
-                         <a href="https://www.facebook.com/rogasian.gelas" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>&nbsp;&nbsp;
-                         <a href="https://www.instagram.com/rogasiangelasi/?next=%2F" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>&nbsp;&nbsp;
-                         <a href="https://github.com/mvungi113" target="_blank"><i class="fa-brands fa-square-github"></i></a>&nbsp;&nbsp;
-                     </div>
+                    <div class="d-flex">
+                        <a href="https://twitter.com/rogasiani_" target="_blank"> <i
+                                class="fa-brands fa-x-twitter"></i></a> &nbsp;&nbsp;
+                        <a href="https://www.facebook.com/rogasian.gelas" target="_blank"><i
+                                class="fa-brands fa-square-facebook"></i></a>&nbsp;&nbsp;
+                        <a href="https://www.instagram.com/rogasiangelasi/?next=%2F" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>&nbsp;&nbsp;
+                        <a href="https://github.com/mvungi113" target="_blank"><i
+                                class="fa-brands fa-square-github"></i></a>&nbsp;&nbsp;
+                    </div>
                 </div>
             </div>
         </nav>
@@ -57,7 +61,7 @@
             While KINDO&#129323; is still a work in progress, we believe in the power of community collaboration. Your
             feedback and insights are invaluable as we fine-tune and enhance the project for its official launch
             &#128640.
-           
+
         </div>
     </div>
 
@@ -70,10 +74,62 @@
                 <h5 class="card-title">Add a Spreadsheet <b>.CSV</b> to a QGIS Project</h5>
                 <p>
                 <p class="alert-warning">
-                    GIS software prefer tabular data to be in <b>.csv</b> format, rather than <b>.xlsx</b>. So before attempting to bring any spreadsheets into QGIS, make sure to save as <b>.csv</b>
+                    GIS software prefer tabular data to be in <b>.csv</b> format, rather than <b>.xlsx</b>. So before
+                    attempting to bring any spreadsheets into QGIS, make sure to save as <b>.csv</b>
                 </p>
+                <p>
+                    <b>Open Empty Project</b>
+                </p> 
+                <img src="../img/add-csv/excell-data-1.PNG" width="100%" alt="empty project">
+                <p>In the top bar menu (banner across the top of the computer screen), select <b class="danger">Layer ===> Add Layer ===> Add delimited text layer</b></p>
+                <img src="../img/add-csv/excell-dat-2.PNG" width="100%" alt="Add new layer">
 
-<a href="../404.html" class="btn btn-primary">What next? &#128526;</a>
+                <p>Under <b>File name</b> select the ellipses dots icon to navigate to the <b>.csv</b> file you wish to import.</p>
+
+              
+
+                <p>Pay attention to <b>Record and Field options</b>. You can start by accepting the defaults, but depending on  the way your data is structured, you may want to make some of these settings</p>
+                <p> If your table has coordinates.<br><em>QGIS will be able to display the rows as points. Select Point coordinates and defines which field in the spreadsheet is <b>X</b> (longitude), and which is <b>Y</b> (latitude).</em></p>
+                <p>If your table does not have coordinates. <br>
+                    <em>Later on you'll to perform a join for now under <b>geometry definition</b> select <b>No Geometry (attribute only table)</b> </em>
+                </p>
+                <img src="../img/add-csv/excell-data-3.PNG" width="100%" alt="Upload image">
+                <p>Select <b>Add </b> and Close</p>
+                <img src="../img/add-csv/excell-data-4.PNG" width="100%" alt="Upload image">
+
+                <br><br>
+                <div class="container-aspect">
+                <iframe class="aspect" src="https://www.youtube.com/embed/Ezl8xt6m2A0?si=wm3-JnVVjiyb-bL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+                <br>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <a href="../404.html" class="btn btn-primary">What next? &#128526;</a>
             </div>
 
         </div>
@@ -83,22 +139,26 @@
         <div class="container ">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                 <div class="col-md-4 d-flex align-items-center">
-    
+
                     <span class="mb-3 mb-md-0 text-muted">
                         <p> &copy;<i id="year"></i> KINDO&#129323;</p>
-    
+
                         <script>
                             // Get current date and time
                             document.getElementById("year").innerHTML = new Date().getFullYear();
                         </script>
                 </div>
-    
-                <div class="d-flex" >
-                    <a href="https://twitter.com/rogasiani_" target="_blank"> <i class="fa-brands fa-x-twitter"></i></a> &nbsp;&nbsp;
-                     <a href="https://www.facebook.com/rogasian.gelas" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>&nbsp;&nbsp;
-                     <a href="https://www.instagram.com/rogasiangelasi/?next=%2F" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>&nbsp;&nbsp;
-                     <a href="https://github.com/mvungi113" target="_blank"><i class="fa-brands fa-square-github"></i></a>&nbsp;&nbsp;
-                 </div>
+
+                <div class="d-flex">
+                    <a href="https://twitter.com/rogasiani_" target="_blank"> <i class="fa-brands fa-x-twitter"></i></a>
+                    &nbsp;&nbsp;
+                    <a href="https://www.facebook.com/rogasian.gelas" target="_blank"><i
+                            class="fa-brands fa-square-facebook"></i></a>&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/rogasiangelasi/?next=%2F" target="_blank"><i
+                            class="fa-brands fa-square-instagram"></i></a>&nbsp;&nbsp;
+                    <a href="https://github.com/mvungi113" target="_blank"><i
+                            class="fa-brands fa-square-github"></i></a>&nbsp;&nbsp;
+                </div>
             </footer>
         </div>
     </div>
